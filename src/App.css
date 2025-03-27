@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: start;
+  padding: 20px 10px 20px 0px; /* top right bottom left clockwise */
+}
+
+.bottom-container {
+}

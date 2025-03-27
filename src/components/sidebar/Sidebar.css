@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar-left {
+  border-radius: 20px;
+  background-color: #a0eec0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 87vh;
+  width: 80%;
+}
+.section {
+  width: 20%;
+}
+.options-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: start;
+  font-size: 1.2rem;
+}
+.top {
+  margin-top: 10px;
+}
+.Name {
+  font-size: 2rem;
+  color: green;
+}
+.icon {
+  font-size: 2rem;
+  margin-top: -10px;
+  color: green;
+  margin-left: 70px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.home,
+.songs,
+.artists {
+  width: 100%;
+}
+
+.home:hover,
+.songs:hover,
+.artists:hover {
+  background-color: green;
+}
